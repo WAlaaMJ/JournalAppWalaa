@@ -2,16 +2,18 @@
 //  JournalAppApp.swift
 //  JournalApp
 //
-//  Created by Sumayah Alqahtani on 17/04/1446 AH.
 //
 
 import SwiftUI
 
 @main
 struct JournalAppApp: App {
+    
+    // Register the model container for JournalEntry
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen() // This is your main view
+                .modelContainer(for: [JournalEntry.self]) // Register the model container for the JournalEntry class
         }
     }
 }

@@ -14,6 +14,14 @@
 		58413D4A2CC5233200D2ADF1 /* JournalAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D492CC5233200D2ADF1 /* JournalAppTests.swift */; };
 		58413D542CC5233200D2ADF1 /* JournalAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D532CC5233200D2ADF1 /* JournalAppUITests.swift */; };
 		58413D562CC5233200D2ADF1 /* JournalAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D552CC5233200D2ADF1 /* JournalAppUITestsLaunchTests.swift */; };
+		58413D632CC533FF00D2ADF1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D622CC533FF00D2ADF1 /* SplashScreen.swift */; };
+		58413D652CC5406800D2ADF1 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D642CC5406800D2ADF1 /* EmptyState.swift */; };
+		58413D692CC6964000D2ADF1 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D682CC6964000D2ADF1 /* MainPage.swift */; };
+		58413D6B2CC9187700D2ADF1 /* NewJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58413D6A2CC9187700D2ADF1 /* NewJournal.swift */; };
+		587972AA2CCCEE8700D6303B /* EditJournal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587972A92CCCEE8700D6303B /* EditJournal.swift */; };
+		587972AC2CCCEEAB00D6303B /* JournalEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587972AB2CCCEEAB00D6303B /* JournalEntryView.swift */; };
+		587972AE2CCCEEEA00D6303B /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587972AD2CCCEEEA00D6303B /* JournalEntry.swift */; };
+		58C37B242CCD3E12006CE8C5 /* BookmarkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C37B232CCD3E12006CE8C5 /* BookmarkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		58413D4F2CC5233200D2ADF1 /* JournalAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JournalAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58413D532CC5233200D2ADF1 /* JournalAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppUITests.swift; sourceTree = "<group>"; };
 		58413D552CC5233200D2ADF1 /* JournalAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58413D622CC533FF00D2ADF1 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		58413D642CC5406800D2ADF1 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		58413D682CC6964000D2ADF1 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		58413D6A2CC9187700D2ADF1 /* NewJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJournal.swift; sourceTree = "<group>"; };
+		587972A92CCCEE8700D6303B /* EditJournal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditJournal.swift; sourceTree = "<group>"; };
+		587972AB2CCCEEAB00D6303B /* JournalEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryView.swift; sourceTree = "<group>"; };
+		587972AD2CCCEEEA00D6303B /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		58C37B232CCD3E12006CE8C5 /* BookmarkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,14 @@
 			children = (
 				58413D382CC5232800D2ADF1 /* JournalAppApp.swift */,
 				58413D3A2CC5232800D2ADF1 /* ContentView.swift */,
+				58413D622CC533FF00D2ADF1 /* SplashScreen.swift */,
+				58413D642CC5406800D2ADF1 /* EmptyState.swift */,
+				58413D682CC6964000D2ADF1 /* MainPage.swift */,
+				587972A92CCCEE8700D6303B /* EditJournal.swift */,
+				587972AB2CCCEEAB00D6303B /* JournalEntryView.swift */,
+				58C37B232CCD3E12006CE8C5 /* BookmarkManager.swift */,
+				58413D6A2CC9187700D2ADF1 /* NewJournal.swift */,
+				587972AD2CCCEEEA00D6303B /* JournalEntry.swift */,
 				58413D3C2CC5233200D2ADF1 /* Assets.xcassets */,
 				58413D3E2CC5233200D2ADF1 /* Preview Content */,
 			);
@@ -257,8 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58413D692CC6964000D2ADF1 /* MainPage.swift in Sources */,
+				587972AC2CCCEEAB00D6303B /* JournalEntryView.swift in Sources */,
+				58413D632CC533FF00D2ADF1 /* SplashScreen.swift in Sources */,
+				58413D6B2CC9187700D2ADF1 /* NewJournal.swift in Sources */,
 				58413D3B2CC5232800D2ADF1 /* ContentView.swift in Sources */,
 				58413D392CC5232800D2ADF1 /* JournalAppApp.swift in Sources */,
+				587972AE2CCCEEEA00D6303B /* JournalEntry.swift in Sources */,
+				58C37B242CCD3E12006CE8C5 /* BookmarkManager.swift in Sources */,
+				58413D652CC5406800D2ADF1 /* EmptyState.swift in Sources */,
+				587972AA2CCCEE8700D6303B /* EditJournal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +454,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JournalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 43V47T9597;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"JournalApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 43V47T9597;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -475,6 +509,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -494,6 +529,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
